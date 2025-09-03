@@ -1,0 +1,260 @@
+
+/* General Styling */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    background-color: #f9f9f9;
+
+    color: #333;
+
+    line-height: 1.6;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+header {
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    background-color: #6c63ff;
+
+    color: white;
+
+}
+
+header h1 span {
+
+    color: #ffdd57;
+
+}
+
+header button {
+
+    margin-top: 10px;
+
+    padding: 8px 16px;
+
+    border: none;
+
+    background-color: white;
+
+    color: #6c63ff;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+
+}
+
+header button:hover {
+
+    background-color: #ffdd57;
+
+    color: #333;
+
+}
+
+section {
+
+    padding: 40px 20px;
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+h2 {
+
+    color: #6c63ff;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+}
+
+.about p {
+
+    text-align: center;
+
+    font-size: 16px;
+
+}
+
+/* Skills */
+
+.skills ul {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    list-style: none;
+
+    margin-top: 15px;
+
+}
+
+.skills li {
+
+    background: #6c63ff;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Projects */
+
+.projects {
+
+    text-align: center;
+
+}
+
+.project-card {
+
+    background: white;
+
+    padding: 15px;
+
+    margin: 10px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.2s;
+
+}
+
+.project-card:hover {
+
+    transform: scale(1.05);
+
+}
+
+/* Contact Form */
+
+.contact form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    max-width: 400px;
+
+    margin: auto;
+
+}
+
+.contact input,
+
+.contact textarea {
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+}
+
+.contact button {
+
+    background-color: #6c63ff;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+
+}
+
+.contact button:hover {
+
+    background-color: #ffdd57;
+
+    color: #333;
+
+}
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 15px;
+
+    background-color: #6c63ff;
+
+    color: white;
+
+    margin-top: 20px;
+
+}
+
+/* Dark Mode */
+
+.dark-mode {
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+}
+
+.dark-mode header {
+
+    background-color: #222;
+
+}
+
+.dark-mode .skills li {
+
+    background-color: #333;
+
+}
+
+.dark-mode .project-card {
+
+    background-color: #2e2e2e;
+
+}
